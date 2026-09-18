@@ -1,4 +1,4 @@
-name: back side
+name: Front side
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Print Numbers
         run: |
-          for i in {10..1}
+          for i in {1..20}
           do
             echo "N: $i"
           done 
